@@ -1,4 +1,5 @@
 import Header from "./components/Header/Header";
+import OutputImages from "./components/outputs/OutputImages";
 import SearchInput from "./components/Search/SearchInput";
 import AdvancedSettings from "./components/Settings/AdvancedSettings";
 
@@ -19,6 +20,8 @@ function App() {
           <SearchInput />
 
           <AdvancedSettings />
+
+          <OutputImages />
         </main>
       </div>
     </>
